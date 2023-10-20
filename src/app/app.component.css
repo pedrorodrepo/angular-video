@@ -1,0 +1,74 @@
+button {
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+p {
+  margin-top: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-title {
+  border-radius: 10px;
+  background: bisque;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.card-content {
+  text-align: center;
+  margin-top: 24px;
+  background-color: #333;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.dark-theme .card-content {
+  background-color: #333;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.dark-button {
+  background-color: bisque;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px;
+  font-weight: normal;
+}
+
+.dark-button:hover,
+.dark-button:active {
+  background-color: rgb(214, 187, 155);
+  color: #000;
+}
+
+.invalid-file-message {
+  font-weight: normal;
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+}

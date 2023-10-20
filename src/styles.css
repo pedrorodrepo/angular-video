@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/* DarkMode */
+body,
+html {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.dark-theme {
+  color: #1a1a1a;
+}
+
+/* Files */
+
+input[type="file"] {
+  display: none;
+}
+
+/* shortcuts */
+
+.br-5 {
+  border-radius: 5px;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
