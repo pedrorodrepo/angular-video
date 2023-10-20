@@ -1,4 +1,4 @@
-# Projeto Angular de Prévia de PDF
+# Projeto Angular de Prévia de Mídia
 
 Este é um projeto Angular simples que permite aos usuários fazer o upload de um arquivo e visualizar uma prévia no navegador.
 
